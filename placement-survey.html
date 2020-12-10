@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey Q1</title>
+</head>
+<body>
+  <div class="background">
+  <div class="container">
+    <h2 class="title">Language Placement Survey</h2>
+    <br>
+    <h6 class="home-btn"><a href="index.html">Home</a></h6>
+    <br>
+    <form id="survey">
+    <h4>Q1 | What type of career do you want?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionOne" value="webDevelopment">
+          <strong>Web Development</strong> : Building, creating, and maintaining websites (aka the <em>outside</em> of the car)
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionOne" value="backEndDevelopment">
+          <strong>Back-End Development</strong> : Building and maintaining the technology that powers the website 
+          (aka the inner-machinations or what is going on <em>under the hood</em> of the car)
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionOne" value="userExperienceDevelopment">
+          <strong>User Experience Design</strong> : Researching and understanding how the user uses the website
+          (aka designing solutions to improve the experience of the user)
+        </label>
+      </div>
+      <br>
+  
+      <h4>Q2 | What is your primary goal?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionTwo" value="money">
+          Make as much money as possible
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionTwo" value="careerChange">
+          Get a new job in a growing industry
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionTwo" value="problemSolve">
+          Solve real problems that need real solutions
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionTwo" value="notSpecific">
+          I don't have a specific goal in mind
+        </label>
+      </div>
+      <br>
+    
+      <h4>Q3 | What country do you live in?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionThree" value="unitedStates">
+          United States
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionThree" value="india">
+          India
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionThree" value="Germany">
+          Germany
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionThree" value="unitedKingdom">
+          United Kingdom
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionThree" value="france">
+          France
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionThree" value="other">
+          Other
+        </label>
+      </div>
+      <br>
+
+      <h4>Q4 | If you attended Hogwarts School of Witchcraft & Wizardry, what House would you ask the Sorting Hat to put you in?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFour" value="gryffindor">
+          Gryffindor
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFour" value="ravenclaw">
+          Ravenclaw
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFour" value="hufflepuff">
+          Hufflepuff
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFour" value="slytherin">
+          Slytherin
+        </label>
+      </div>
+      <br>
+
+      <h4>Q5 | What company would you most like to work for?</h4>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFive" value="google">
+          Google
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFive" value="dropbox">
+          Dropbox
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFive" value="facebook">
+          Facebook
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="questionFive" value="netflix">
+          Netflix
+        </label>
+      </div>
+      <label>
+        <input type="radio" name="questionFive" value="github">
+        GitHub
+      </label>
+
+      <button type = "submit" button class="btn">See Results!</button>
+    </form>
+
+    <br>
+    <div id="suggestion">
+      <p>We believe <strong><span id="resultOne"></span></strong>, <strong><span id="resultTwo"></span></strong>, 
+        and <strong><span id="resultThree"></span></strong> are a great place to start. Best of luck to you and your coding adventures.</p>
+    </div>
+    </div>
+
+      
+  </div>
+      
+  
+
+  </div>
+</body>
+</html>
