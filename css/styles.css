@@ -33,6 +33,12 @@ body {
   font-weight: bold;
 }
 
+.home-btn {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+
 .supporting-image {
   display: block;
   margin-left: auto;
@@ -43,3 +49,17 @@ body {
 a {
   color:rgb(216, 14, 14);
 }
+
+#suggestion {
+  display: none;
+  padding: 20px;
+  border: slateblue;
+  border-width: 20px;
+  background-color: thistle;
+  margin-bottom: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+}
+
