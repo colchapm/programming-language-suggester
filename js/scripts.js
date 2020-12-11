@@ -20,10 +20,11 @@ $(document).ready(function(){
       resultTwo = "HTML"
       resultThree = "CSS"
     }
-    $("#suggestion").show();
+   
     document.getElementById ("resultOne").innerHTML = resultOne;
     document.getElementById ("resultTwo").innerHTML = resultTwo;
     document.getElementById ("resultThree").innerHTML = resultThree;
+    $("#suggestion").show();
 
 
 
@@ -32,9 +33,3 @@ $(document).ready(function(){
 });
 
 
-/*
-if (questionOne === "webDevelopment") {
-  javaScript = 1
-  
-}
-*/
